@@ -37,6 +37,32 @@ a = 13
 print(bin(a))
 print(hex(a))
 ________________________________________
+a = 12
+b = 8
+print(bin(a))
+print(bin(b))
+print(bin(a&b))
+print('')
+print(a&b)
+
+print('')
+print(bin(a))
+print(bin(b))
+print(bin(a|b))
+print('')
+print(a|b)
+
+print('')
+print(bin(a))
+print(bin(b))
+print(bin(a|b))
+print('')
+print(a^b)
+
+print('')
+print(bin(a))
+print(bin(~a))
+________________________________________
 >>> bin(0b1101 & 0b1001)   # 비트 AND
 '0b1001'
 >>> 13 & 9                 # 비트 AND
